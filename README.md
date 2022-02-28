@@ -33,3 +33,10 @@ Alascanfu的算法之路 https://leetcode-cn.com/u/alascanfu/
 |2022/02/13/<br>第280场周赛|[美团校招](https://campus.meituan.com/)|2|简单模拟 + 哈希奇偶计数/优先队列 <br>+ 排序模拟遍历|[Leetcode.周赛第280场周赛](https://alascanfu.blog.csdn.net/article/details/122913930)|
 |2022/02/20/<br>第281场周赛|[红梅游戏](https://www.redinfinity.net/)|3|简单模拟 + 链表数据结构简单应用 <br>+ 优先队列|[Leetcode.周赛第281场周赛](https://alascanfu.blog.csdn.net/article/details/123029476)|
 |2022/02/27/<br>第282场周赛|[西安葡萄城](https://www.grapecity.com.cn/)|3|简单模拟 + 哈希表的应用 <br>+ 排序+二分缩小|[Leetcode.周赛第282场周赛](https://alascanfu.blog.csdn.net/article/details/123162953)|
+
+****
+
+> 📑 文章专栏：[《剑指offer》面向面试官 巧妙求解](https://blog.csdn.net/fuijiawei/category_11604794.html)
+
+| 题目编号      | 问题考察点   | 面试官看中点 | 题目地址 |解析地址 |
+|   :---:     | :---:       |:---:      | :---:  |:---:  |
