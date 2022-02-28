@@ -5,7 +5,7 @@
  * @modified By： Alascanfu
  **/
 public class Test {
-    @org.junit.jupiter.api.Test
+    @org.testng.annotations.Test
     public void test1(){
         Solution solution = new Solution();
         System.out.println(solution.maximumRequests(5, new int[][]{{0, 1}, {1, 0}, {0, 1}, {1, 2}, {2, 0}, {3, 4}}));
