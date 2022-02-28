@@ -27,9 +27,9 @@ Alascanfu的算法之路 https://leetcode-cn.com/u/alascanfu/
 
 | 日期/场次      | 周赛专场   | AC 题数 | 类型考察 | 题解地址 |
 |   :---:       | :---: |:---:| :---:| :---:|
-|2022/01/16/<br>第276场周赛|[声网—agora](https://www.agora.io/cn)|2|字符模拟 + 贪心递归考察 <br>+ 动归考察|[Leetcode每周.周赛第276场周赛](https://alascanfu.blog.csdn.net/article/details/122521717)|
-|2022/01/23/<br>第277场周赛|[ONES-Blog](https://blog.ones.ai/)|2|排序理解 + 双指针数组 <br>+ 哈希表映射|[Leetcode每周.周赛第277场周赛](https://alascanfu.blog.csdn.net/article/details/122650121)|
-|2022/01/30/<br>第278场周赛|[网易游戏](http://game.163.com/)|1|简单排序+遍历 + 前缀和遍历 <br>+ 字符串的倒置hash|[Leetcode每周.周赛第278场周赛](https://alascanfu.blog.csdn.net/article/details/122751804)|
-|2022/02/13/<br>第280场周赛|[美团校招](https://campus.meituan.com/)|2|简单模拟 + 哈希奇偶计数/优先队列 <br>+ 排序模拟遍历|[Leetcode每周.周赛第280场周赛](https://alascanfu.blog.csdn.net/article/details/122913930)|
-|2022/02/20/<br>第281场周赛|[红梅游戏](https://www.redinfinity.net/)|3|简单模拟 + 链表数据结构简单应用 <br>+ 优先队列|[Leetcode每周.周赛第281场周赛](https://alascanfu.blog.csdn.net/article/details/123029476)|
-|2022/02/27/<br>第282场周赛|[西安葡萄城](https://www.grapecity.com.cn/)|3|简单模拟 + 哈希表的应用 <br>+ 排序+二分缩小|[Leetcode每周.周赛第282场周赛](https://alascanfu.blog.csdn.net/article/details/123162953)|
+|2022/01/16/<br>第276场周赛|[声网—agora](https://www.agora.io/cn)|2|字符模拟 + 贪心递归考察 <br>+ 动归考察|[Leetcode.周赛第276场周赛](https://alascanfu.blog.csdn.net/article/details/122521717)|
+|2022/01/23/<br>第277场周赛|[ONES-Blog](https://blog.ones.ai/)|2|排序理解 + 双指针数组 <br>+ 哈希表映射|[Leetcode.周赛第277场周赛](https://alascanfu.blog.csdn.net/article/details/122650121)|
+|2022/01/30/<br>第278场周赛|[网易游戏](http://game.163.com/)|1|简单排序+遍历 + 前缀和遍历 <br>+ 字符串的倒置hash|[Leetcode.周赛第278场周赛](https://alascanfu.blog.csdn.net/article/details/122751804)|
+|2022/02/13/<br>第280场周赛|[美团校招](https://campus.meituan.com/)|2|简单模拟 + 哈希奇偶计数/优先队列 <br>+ 排序模拟遍历|[Leetcode.周赛第280场周赛](https://alascanfu.blog.csdn.net/article/details/122913930)|
+|2022/02/20/<br>第281场周赛|[红梅游戏](https://www.redinfinity.net/)|3|简单模拟 + 链表数据结构简单应用 <br>+ 优先队列|[Leetcode.周赛第281场周赛](https://alascanfu.blog.csdn.net/article/details/123029476)|
+|2022/02/27/<br>第282场周赛|[西安葡萄城](https://www.grapecity.com.cn/)|3|简单模拟 + 哈希表的应用 <br>+ 排序+二分缩小|[Leetcode.周赛第282场周赛](https://alascanfu.blog.csdn.net/article/details/123162953)|
