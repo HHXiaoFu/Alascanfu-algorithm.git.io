@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @description： 2022/02/28 Leetcode每日一题（Hard）——1601. 最多可达成的换楼请求数目
  * @modified By： Alascanfu
  **/
-class Solution {
+class Solution1601 {
     public int maximumRequests(int n, int[][] requests) {
         // 获取提出更换请求的员工个数
         int m = requests.length;
