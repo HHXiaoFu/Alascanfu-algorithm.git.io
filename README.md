@@ -47,9 +47,9 @@ Alascanfu的算法之路 https://leetcode-cn.com/u/alascanfu/
 > 📑 文章专栏：[《剑指offer》面向面试官 巧妙求解](https://blog.csdn.net/fuijiawei/category_11604794.html)
 
 ## 整理面试算法记录
-| 题目编号      | 问题考察点   | 面试官看中点 | 题目地址 |解析地址 |
+| 题目编号      | 问题考察点   | 面试官看中点 | 题目地址 |更新日期 |
 |   :---:     | :---:       |:---:      | :---:  |:---:  |
-|       |        |      |   |  |
+|   面试题3:数组中重复的数字    |  哈希表/排序+遍历/原地排序+指针  | 对算法时间复杂度/空间复杂度的敏感     |[剑指 Offer 03. 数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)   |2022/03/01 |
 
 ****
 
