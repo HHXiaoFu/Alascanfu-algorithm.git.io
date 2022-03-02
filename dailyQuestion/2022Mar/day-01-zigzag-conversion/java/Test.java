@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @description： Leetcode每日一题——6.Z字形变换 测试类
  * @modified By： Alascanfu
  **/
-public class Test {
+class Test6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入numRows:");
