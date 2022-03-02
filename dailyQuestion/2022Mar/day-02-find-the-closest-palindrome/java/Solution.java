@@ -25,18 +25,38 @@ class Solution564 {
         long res = Long.MAX_VALUE;
         // 我们将数字分为左右两段数字 a \ b
         // 如果当前为奇数个则多为 a 分一个 需要注意的是奇数个时需要拼接反转的字符需要忽略a段的最后一个数字
-        long a = Long.parseLong(n.substring(0, (lenth + 1) / 2));
         // 利用 a-1 | a | a+1 构建回文数 获取与当前值最小差值的回文串数字 利用滚动变量diff、res分别记录差值和结果
-        for (int i : new int[]{-1, 0, 1}) {
-            String aa = (a + i) + "";
-            // 将字符串进行对应的拼接
-            String curResStr = new StringBuilder(lenth % 2 == 1 ? aa.substring(0, aa.length() - 1) : aa).reverse().insert(0, aa).toString();
-            if (n.equals(curResStr)) continue;
-            if (Math.abs(Long.parseLong(curResStr) - curNum) <= diff) {
-                diff = Math.abs(Long.parseLong(curResStr) - curNum);
-                res = Math.min(res, Long.parseLong(curResStr));
+        if (lenth % 2 == 1){
+            long a = Long.parseLong(n.substring(0,(lenth + 1) / 2));
+            // System.out.print(a);
+        
+            for (int i : new int [] {1,0,-1}){
+                String aa = (a + i) + "";
+                //System.out.print(aa + "\t");
+                String curRes = new StringBuilder(aa.substring(0,aa.length()-1)).reverse().insert(0,aa).toString();
+                // System.out.print(curRes + "\t");
+                if (n.equals(curRes))continue;
+                if (Math.abs(Long.parseLong(curRes) - curNum) <= diff){
+                    diff = Math.abs(Long.parseLong(curRes) - curNum);
+                    res = Math.min(res,Long.parseLong(curRes));
+                }
+            }
+        }else {
+            long a = Long.parseLong(n.substring(0,(lenth + 1) / 2));
+            // System.out.print(a);
+        
+            for (int i : new int [] {1,0,-1}){
+                String aa =(a + i) + "";
+                // System.out.print(aa + "\t");
+                String curRes = new StringBuilder(aa).reverse().insert(0,aa).toString();
+                // System.out.print(curRes + "\t");
+                if (n.equals(curRes))continue;
+                if (Math.abs(Long.parseLong(curRes) - curNum) <= diff){
+                    diff = Math.abs(Long.parseLong(curRes) - curNum);
+                    res = Math.min(res,Long.parseLong(curRes));
+                }
             }
         }
-        return res + "";
+        return res+"";
     }
 }
