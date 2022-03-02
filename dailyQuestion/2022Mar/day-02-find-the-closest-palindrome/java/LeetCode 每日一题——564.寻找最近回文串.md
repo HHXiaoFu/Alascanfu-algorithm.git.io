@@ -33,7 +33,8 @@
    - 如果当输入的数值长度为`1 && 数值n > 0`时 其返回的结果为 数值 `n-1`
    - 如果针`对于10的幂的数` ||` 10的幂+1的数` 其返回的结果也都是 数值 `n-1`
    - 如果输入的数为临界当前数位十的幂数时 则返回的值为 `n + 2` —— 例如 99、199、1999
-   - 正常示例输入：我们很容易想到就是字符串折半`左右相同的思想`,但是也是需要分类进行讨论对于` n的长度为奇数个 `则我们`可以使得左侧字符串a 多获取一个字符数字`，而`右侧的数字符则需要省略掉最后一个数字字符反转进行拼接的思想`/ 而`n的长度为偶数个就无需考虑上述那么多直接反转拼接即可`。但是这只是拼接的思路，我们必须`还要根据题意来添加约束条件`，这里的目的是`为了获取最小差值的回文数字`，我们就必须设想如果是`奇数个我们只需要对最中间的那个数字字符进行改变加以与当前数值的差值进行判断就好了`。而`偶数个我们可以通过示例输入找到规律 只和最中间的两个字符数字有关系`。故我们可以总结一下，无论是奇数还是偶数，最中间的那个值或者两个值都是有字符段a影响得到的，所以我们只是需要对末位的值进行改变，-1 ，0 ，1的相关操作来使得获取当前的回文字符串 试进行滚动比较。
+   - 正常示例输入：我们很容易想到就是字符串折半左右相同的思想,但是也是需要分类进行讨论对于n的长度为奇数个则我们可以使得左侧字符串a 多获取一个字符数字，而右侧的数字符则需要省略掉最后一个数字字符反转进行拼接的思想/ 而n的长度为偶数个就无需考虑上述那么多直接反转拼接即可。但是这只是拼接的思路，我们必须还要根据题意来添加约束条件，这里的目的是为了获取最小差值的回文数字，我们就必须设想如果是奇数个我们需要对当前数值进行判断。而偶数个也是与字符数据相挂钩。故我们可以总结一下，无论是奇数还是偶数，两个值都是由字符段a影响得到的，所以我们只是需要对其值进行改变按位计算，-1 ，0 ，1的相关操作来使得获取当前的回文字符串 试进行滚动比较。
+
 
 **这里参阅了Hippo的解题代码**<br>
  
@@ -67,16 +68,35 @@ class Solution564 {
         long res = Long.MAX_VALUE;
         // 我们将数字分为左右两段数字 a \ b
         // 如果当前为奇数个则多为 a 分一个 需要注意的是奇数个时需要拼接反转的字符需要忽略a段的最后一个数字
-        long a = Long.parseLong(n.substring(0, (lenth + 1) / 2));
-        // 利用 a-1 | a | a+1 构建回文数 获取与当前值最小差值的回文串数字 利用滚动变量diff、res分别记录差值和结果
-        for (int i : new int[]{-1, 0, 1}) {
-            String aa = (a + i) + "";
-            // 将字符串进行对应的拼接
-            String curResStr = new StringBuilder(lenth % 2 == 1 ? aa.substring(0, aa.length() - 1) : aa).reverse().insert(0, aa).toString();
-            if (n.equals(curResStr)) continue;
-            if (Math.abs(Long.parseLong(curResStr) - curNum) <= diff) {
-                diff = Math.abs(Long.parseLong(curResStr) - curNum);
-                res = Math.min(res, Long.parseLong(curResStr));
+        if (lenth % 2 == 1){
+            long a = Long.parseLong(n.substring(0,(lenth + 1) / 2));
+            // System.out.print(a);
+        
+            for (int i : new int [] {1,0,-1}){
+                String aa = (a + i) + "";
+                //System.out.print(aa + "\t");
+                String curRes = new StringBuilder(aa.substring(0,aa.length()-1)).reverse().insert(0,aa).toString();
+                // System.out.print(curRes + "\t");
+                if (n.equals(curRes))continue;
+                if (Math.abs(Long.parseLong(curRes) - curNum) <= diff){
+                    diff = Math.abs(Long.parseLong(curRes) - curNum);
+                    res = Math.min(res,Long.parseLong(curRes));
+                }
+            }
+        }else {
+            long a = Long.parseLong(n.substring(0,(lenth + 1) / 2));
+            // System.out.print(a);
+        
+            for (int i : new int [] {1,0,-1}){
+                String aa =(a + i) + "";
+                // System.out.print(aa + "\t");
+                String curRes = new StringBuilder(aa).reverse().insert(0,aa).toString();
+                // System.out.print(curRes + "\t");
+                if (n.equals(curRes))continue;
+                if (Math.abs(Long.parseLong(curRes) - curNum) <= diff){
+                    diff = Math.abs(Long.parseLong(curRes) - curNum);
+                    res = Math.min(res,Long.parseLong(curRes));
+                }
             }
         }
         return res + "";
