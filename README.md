@@ -56,3 +56,5 @@ Alascanfu的算法之路 https://leetcode-cn.com/u/alascanfu/
 ****
 
 > 📑 2022/03/01新增模块：[《八大排序算法》与策略工厂模式相结合——top8SortAlgorithm](https://github.com/HHXiaoFu/Alascanfu-algorithm.git.io/tree/master/top8SortAlgorithm)
+>
+> 📑 2022/03/03新增模块：[《基础算法模板》—— BasicAlgorithmTemplate](https://github.com/HHXiaoFu/Alascanfu-algorithm.git.io/tree/master/BasicAlgorithmTemplate)
