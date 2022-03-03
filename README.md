@@ -27,6 +27,7 @@ Alascanfu的算法之路 https://leetcode-cn.com/u/alascanfu/
 |2022/02/28| [1601. 最多可达成的换楼请求数目](https://leetcode-cn.com/problems/maximum-number-of-achievable-transfer-requests/)|Hard| 二分模拟(状态压缩) |2022/02/28 | | | | 
 |2022/03/01| [6. Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)|Medium| 字符串模拟 |2022/03/01 | | | | 
 |2022/03/02| [564. 寻找最近的回文数](https://leetcode-cn.com/problems/find-the-closest-palindrome/)|Hard| 字符串拼接+示例规律 |2022/03/02 | | | | 
+|2022/03/03| [258. 各位相加](https://leetcode-cn.com/problems/add-digits/)|Easy| 递归 + 数学 + 暴力AC |2022/03/03 | | | | 
 
 ****
 
