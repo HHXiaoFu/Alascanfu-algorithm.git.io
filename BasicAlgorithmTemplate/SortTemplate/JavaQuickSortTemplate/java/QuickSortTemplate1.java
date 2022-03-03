@@ -12,8 +12,8 @@ public class QuickSortTemplate1 {
         int j = right;
         int x = nums[left];
         while (i < j){
-            while (i < j && nums[j] > x)j--;
-            while (i < j && nums[i] < x)i++;
+            while (i < j && nums[j] >= x)j--;
+            while (i < j && nums[i] <= x)i++;
             swap(nums,i,j);
         }
         swap(nums,i,left);
