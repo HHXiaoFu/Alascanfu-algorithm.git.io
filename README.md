@@ -29,6 +29,7 @@ Alascanfu的算法之路 https://leetcode-cn.com/u/alascanfu/
 |2022/03/02| [564. 寻找最近的回文数](https://leetcode-cn.com/problems/find-the-closest-palindrome/)|Hard| 字符串拼接+示例规律 |2022/03/02 | | | | 
 |2022/03/03| [258. 各位相加](https://leetcode-cn.com/problems/add-digits/)|Easy| 递归 / 数学 / 暴力AC |2022/03/03 | | | | 
 |2022/03/04| [2104. 子数组范围和](https://leetcode-cn.com/problems/sum-of-subarray-ranges/)|Medium| 枚举 / 单调栈找最近下标 |2022/03/04 | | | | 
+|2022/03/05| [521. 最长特殊序列 Ⅰ](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/)|Easy| 脑筋急转弯 / 贪心思想 |2022/03/05 | | | | 
 
 ****
 

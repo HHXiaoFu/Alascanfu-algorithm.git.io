@@ -10,6 +10,7 @@
     <version>1.0-.0</version>
     <modules>
         <module>SortTemplate</module>
+        <module>DichotomyTemplate</module>
     </modules>
 
     <!--版本号控制-->
