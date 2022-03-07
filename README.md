@@ -15,7 +15,7 @@ Alascanfu的算法之路 https://leetcode-cn.com/u/alascanfu/
 
 **如果有什么整改意见,希望您可以向我提出**
 
-**QQ:3201256097 | WeChat:13551708248, 我将不胜感激 谢谢嗷 ヾ(≧O≦)〃嗷~**
+**QQ:3201256097 | WeChat:Alascanfu, 我将不胜感激 谢谢嗷 ヾ(≧O≦)〃嗷~**
 
 > 📑 文章专栏：[Leetcode每日一题《打卡日常》](https://blog.csdn.net/fuijiawei/category_11553903.html)
 
@@ -30,6 +30,8 @@ Alascanfu的算法之路 https://leetcode-cn.com/u/alascanfu/
 |2022/03/03| [258. 各位相加](https://leetcode-cn.com/problems/add-digits/)|Easy| 递归 / 数学 / 暴力AC |2022/03/03 | | | | 
 |2022/03/04| [2104. 子数组范围和](https://leetcode-cn.com/problems/sum-of-subarray-ranges/)|Medium| 枚举 / 单调栈找最近下标 |2022/03/04 | | | | 
 |2022/03/05| [521. 最长特殊序列 Ⅰ](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/)|Easy| 脑筋急转弯 / 贪心思想 |2022/03/05 | | | | 
+|2022/03/06| [2100. 适合打劫银行的日子](https://leetcode-cn.com/problems/find-good-days-to-rob-the-bank/)|Medium| 动态规划 / 前缀和与后缀和思想 |2022/03/06 | | | | 
+|2022/03/07| [504. 七进制数](https://leetcode-cn.com/problems/base-7/)|Easy| 数学短除法 / 栈合理应用 |2022/03/07 | | | | 
 
 ****
 
