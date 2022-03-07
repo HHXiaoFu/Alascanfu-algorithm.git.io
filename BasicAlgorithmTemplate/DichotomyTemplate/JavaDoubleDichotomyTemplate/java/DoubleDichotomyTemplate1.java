@@ -17,6 +17,7 @@ public class DoubleDichotomyTemplate1 {
             if (check(mid)) r = mid;
             else l = mid;
         }
+        Integer.toString(100,7);
         return l;
     }
 }
