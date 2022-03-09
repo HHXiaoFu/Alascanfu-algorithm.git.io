@@ -12,6 +12,7 @@
         <module>SortTemplate</module>
         <module>DichotomyTemplate</module>
         <module>BigIntegerTemplate</module>
+        <module>DifferenceAndPrefixSum</module>
     </modules>
 
     <!--版本号控制-->
