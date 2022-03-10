@@ -13,6 +13,7 @@
         <module>DichotomyTemplate</module>
         <module>BigIntegerTemplate</module>
         <module>DifferenceAndPrefixSum</module>
+        <module>NonrecursiveTraversalOfBinaryTrees</module>
     </modules>
 
     <!--版本号控制-->
