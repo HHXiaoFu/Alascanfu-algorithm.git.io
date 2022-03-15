@@ -9,7 +9,7 @@ import java.util.Arrays;
  * @description： AcWing 3346. 你知道你的ABC吗 2022/03/14
  * @modified By： Alascanfu
  **/
-class Main {
+class Main3346 {
     
     public static void main(String[] args) throws IOException {
         InputStreamReader in = new InputStreamReader(System.in);
