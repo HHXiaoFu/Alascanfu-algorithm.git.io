@@ -37,6 +37,7 @@ Alascanfu的算法之路 https://leetcode-cn.com/u/alascanfu/
 |2022/03/10| [589. N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/)|Easy| 模板题二叉树的遍历扩展/递归/栈 |2022/03/10 | | | | 
 |2022/03/12| [590. N 叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/)|Easy| 模板题二叉树的遍历扩展/递归/栈 |2022/03/12 | | | | 
 |2022/03/14| [599. 两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/)|Easy| 双哈希表暴力 |2022/03/14 | | | | 
+|2022/03/15| [2044. 统计按位或能得到最大值的子集数目](https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/)|Medium| DFS深搜 |2022/03/15 | | | | 
 
 ****
 
