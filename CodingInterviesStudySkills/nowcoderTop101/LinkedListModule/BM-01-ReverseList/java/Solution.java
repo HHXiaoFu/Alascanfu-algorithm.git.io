@@ -6,7 +6,7 @@ import java.util.List;
  * @description： BM-01-反转链表
  * @modified By： Alascanfu
  **/
-class Solution {
+class SolutionBM01 {
     /** 非递归方式 反转链表*/
     public ListNode ReverseList(ListNode head){
         ListNode preNode = null;
