@@ -40,6 +40,7 @@ Alascanfu的算法之路 https://leetcode-cn.com/u/alascanfu/
 |2022/03/15| [2044. 统计按位或能得到最大值的子集数目](https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/)|Medium| DFS深搜 |2022/03/15 | | | | 
 |2022/03/16| [432. 全 O(1) 的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/)|Hard| 双向链表+数据结构设计 |2022/03/16 | | | | 
 |2022/03/17| [720. 词典中最长的单词](https://leetcode-cn.com/problems/longest-word-in-dictionary/)|Easy| 字典树 / 字符串字典序排序+哈希 |2022/03/17 | | | | 
+|2022/03/18| [2043. 简易银行系统](https://leetcode-cn.com/problems/simple-bank-system/)|Medium| 简单模拟 |2022/03/18 | | | | 
 
 ****
 
