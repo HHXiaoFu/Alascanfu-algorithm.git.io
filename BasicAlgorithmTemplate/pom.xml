@@ -15,6 +15,7 @@
         <module>DifferenceAndPrefixSum</module>
         <module>NonrecursiveTraversalOfBinaryTrees</module>
         <module>DataAlgorithm</module>
+        <module>TwoPointerTemplate</module>
     </modules>
 
     <!--版本号控制-->
