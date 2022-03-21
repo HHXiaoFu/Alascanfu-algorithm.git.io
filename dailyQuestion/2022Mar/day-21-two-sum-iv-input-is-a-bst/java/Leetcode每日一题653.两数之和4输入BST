@@ -1,0 +1,123 @@
+# 题目
+>给定一个二叉搜索树 root 和一个目标结果 k，如果 BST 中存在两个元素且它们的和等于给定的目标结果，则返回 true。
+
+
+
+示例1：
+
+![image.png](https://pic.leetcode-cn.com/1647848785-YSLWCn-image.png)
+
+```txt
+输入: root = [5,3,6,2,4,null,7], k = 9
+输出: true
+```
+示例2：
+![image.png](https://pic.leetcode-cn.com/1647848781-GldjFt-image.png)
+
+
+```txt
+输入: root = [5,3,6,2,4,null,7], k = 28
+输出: false
+```
+## 提示
+- 二叉树的节点个数的范围是  [1, $10^4$].
+- $-10^4 <= Node.val <= 10^4$
+- root 为二叉搜索树
+- $-10^5 <= k <= 10^5$
+## 📝思路📝
+
+**本题考查知识点**
+- 思路1：很容易就能想到的方法就是`通过遍历一下该颗树用一个Set记录当前已经在树中出现的值`，`如果遇到当前的节点可以满足在已经记录的Set中`找到一个`k-node.val`的值则`说明这棵树存在两个元素且他们的和等于给定的目标结果`。
+
+> 利用BST的特性来做出本题也是可以的
+
+> [三叶姐姐——双指针 + BST 中序遍历](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/solution/by-ac_oier-zr4o/)
+- 思路2：根据三叶姐姐给出的思路我们很容易就能理解这道题了，对于BST我们可以知道其中序遍历是有序的，那么`如果将该树的最左链与最右链分别加入栈中`，很容易知道的就是`每个栈的栈顶无非BST中的最小值与最大值分别对应`，然后就容易了，`既然出现了最小值与最大值`，如果树中`存在一个值的话满足左值+右值 = k则说明可以找到`，反之`如果二者之和小于 k 则我们需要从左树中找到比当前指针稍大的一个数`，在进行比较，`反之则从右树中找到一个比当前指针所指的元素稍小的一个数`。以此循环，直至左右指针碰撞，还没找到就说明当前BST中没有该元素。
+## 代码实现
+**遍历+哈希Set**
+```java
+class Solution {
+    Set<Integer> set = new HashSet<>();
+    int k ;
+    public boolean findTarget(TreeNode root, int k) {
+        this.k = k;
+        return preorder(root);
+    }
+    // 加深一遍非递归方式的前序遍历的板子书写
+    boolean preorder(TreeNode root){
+        Stack<TreeNode> stack = new Stack<>();
+        if (root == null )return false;
+        stack.push(root);
+        while (!stack.isEmpty()){
+            TreeNode node = stack.pop();
+            if (node != null){
+                if(node.right != null)stack.push(node.right);
+                if(node.left != null )stack.push(node.left);
+                stack.push(node);
+                stack.push(null);
+            }else {
+                node = stack.pop();
+                if (set.contains(k - node.val))return true;
+                set.add(node.val);
+            }
+        }
+        return false;
+    }
+}
+```
+
+- **时间复杂度:** O($n$)   n代表的是二叉树的大小
+- **空间复杂度:** O($n$)   额外构建了一个大小为n的Set空间
+
+**BST中序遍历+双指针**
+```java
+class Solution {
+    public boolean findTarget(TreeNode root, int k) {
+        Deque<TreeNode>leftDeque = new ArrayDeque<>();
+        Deque<TreeNode>rightDeque = new ArrayDeque<>();
+        TreeNode node = root;
+        while (node!=null){
+            leftDeque.addLast(node);
+            node = node.left;
+        }
+        node = root;
+        while(node!=null){
+            rightDeque.addLast(node);
+            node = node.right;
+        }
+        
+        TreeNode l = leftDeque.peekLast();
+        TreeNode r = rightDeque.peekLast();
+        while (l.val < r.val){
+            int target = l.val + r.val;
+            if (target == k)return true;
+            if (target < k){
+                l = getNext(leftDeque,true);
+            }else {
+                r = getNext(rightDeque,false);
+            }
+        }
+        return false;
+    }
+    // 如果当前二者的值小于 k 则需要从左子树找到一个比当前值大的值 而大于k时则需要从右子树找到一个比当前值小的值
+    TreeNode getNext(Deque<TreeNode> dq ,boolean isLeft){
+        TreeNode node = isLeft ? dq.pollLast().right : dq.pollLast().left;
+        while (node != null){
+            dq.addLast(node);
+            node = isLeft ? node.left : node.right;
+        }
+        return dq.peekLast();
+    }
+}
+```
+- **时间复杂度:** O($n$)   n代表的是二叉树的大小
+- **空间复杂度:** O($n$)   额外构建了一个大小为n的Set空间
+## 运行结果
+**遍历+哈希Set**
+
+![image.png](https://pic.leetcode-cn.com/1647848767-fqBEME-image.png)
+
+**BST中序遍历+双指针**
+
+![image.png](https://pic.leetcode-cn.com/1647848749-NBBjXQ-image.png)
+

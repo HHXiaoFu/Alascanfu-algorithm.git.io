@@ -42,6 +42,7 @@ Alascanfu的算法之路 https://leetcode-cn.com/u/alascanfu/
 |2022/03/17| [720. 词典中最长的单词](https://leetcode-cn.com/problems/longest-word-in-dictionary/)|Easy| 字典树 / 字符串字典序排序+哈希 |2022/03/17 | | | | 
 |2022/03/18| [2043. 简易银行系统](https://leetcode-cn.com/problems/simple-bank-system/)|Medium| 简单模拟 |2022/03/18 | | | | 
 |2022/03/19| [606. 根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/)|Easy| DFS深搜 |2022/03/19 | | | | 
+|2022/03/21| [653. 两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)|Easy| 双指针+BST中序遍历/ 树的遍历+哈希Set |2022/03/19 | | | | 
 
 ****
 
