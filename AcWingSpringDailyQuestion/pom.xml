@@ -10,6 +10,7 @@
     <version>1.0.0</version>
     <modules>
         <module>Week1</module>
+        <module>Week2</module>
     </modules>
 
     <!--版本号控制-->
