@@ -16,6 +16,7 @@
         <module>NonrecursiveTraversalOfBinaryTrees</module>
         <module>DataAlgorithm</module>
         <module>TwoPointerTemplate</module>
+        <module>CommonBitOperations</module>
     </modules>
 
     <!--版本号控制-->
