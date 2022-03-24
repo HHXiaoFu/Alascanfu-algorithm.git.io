@@ -17,6 +17,7 @@
         <module>DataAlgorithm</module>
         <module>TwoPointerTemplate</module>
         <module>CommonBitOperations</module>
+        <module>DiscretizationTemplate</module>
     </modules>
 
     <!--版本号控制-->
