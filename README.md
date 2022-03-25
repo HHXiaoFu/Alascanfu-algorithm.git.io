@@ -45,6 +45,8 @@ Alascanfu的算法之路 https://leetcode-cn.com/u/alascanfu/
 |2022/03/21| [653. 两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)|Easy| 双指针+BST中序遍历/ 树的遍历+哈希Set |2022/03/21 | | | | 
 |2022/03/22| [2038. 如果相邻两个颜色均相同则删除当前颜色](https://leetcode-cn.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|Medium| 博弈论 |2022/03/22 | | | | 
 |2022/03/23| [440. 字典序的第K小数字](https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/)|Hard| 前缀树+模拟计数 / bfs + dfs |2022/03/23 | | | | 
+|2022/03/24| [661. 图片平滑器](https://leetcode-cn.com/problems/image-smoother/)|Easy| 前缀和  |2022/03/24 | | | | 
+|2022/03/25| [172. 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/)|Medium| 数学  |2022/03/25 | | | | 
 
 ****
 
