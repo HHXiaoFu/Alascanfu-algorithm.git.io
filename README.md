@@ -47,6 +47,7 @@ Alascanfu的算法之路 https://leetcode-cn.com/u/alascanfu/
 |2022/03/23| [440. 字典序的第K小数字](https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/)|Hard| 前缀树+模拟计数 / bfs + dfs |2022/03/23 | | | | 
 |2022/03/24| [661. 图片平滑器](https://leetcode-cn.com/problems/image-smoother/)|Easy| 前缀和  |2022/03/24 | | | | 
 |2022/03/25| [172. 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/)|Medium| 数学  |2022/03/25 | | | | 
+|2022/03/26| [682. 棒球比赛](https://leetcode-cn.com/problems/baseball-game/)|Easy| 栈的巧妙应用  |2022/03/26 | | | | 
 
 ****
 
