@@ -84,3 +84,7 @@ Alascanfu的算法之路 https://leetcode-cn.com/u/alascanfu/
 > 📑 2022/03/03新增模块：[《基础算法模板》—— BasicAlgorithmTemplate](https://github.com/HHXiaoFu/Alascanfu-algorithm.git.io/tree/master/BasicAlgorithmTemplate)
 >
 > 📑 2022/03/14新增模块：[《AcWing春季每日一题打卡活动》—— AcWingSpringDailyQuestion](https://github.com/HHXiaoFu/Alascanfu-algorithm.git.io/tree/master/AcWingSpringDailyQuestion)
+> 
+> 📑 2022/03/29新增模块：[《综合算法——前缀和+二分》—— PrefixAndDichotomy](https://github.com/HHXiaoFu/Alascanfu-algorithm.git.io/tree/master/PrefixAndDichotomy)
+> 
+> 📑 2022/03/30新增模块：[《高级数据结构》—— AdvancedDataStructure](https://github.com/HHXiaoFu/Alascanfu-algorithm.git.io/tree/master/AdvancedDataStructure)
