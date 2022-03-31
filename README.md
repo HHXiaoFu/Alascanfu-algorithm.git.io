@@ -50,6 +50,7 @@ Alascanfu的算法之路 https://leetcode-cn.com/u/alascanfu/
 |2022/03/26| [682. 棒球比赛](https://leetcode-cn.com/problems/baseball-game/)|Easy| 栈的巧妙应用  |2022/03/26 | | | | 
 |2022/03/28| [693. 交替位二进制数](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/)|Easy| 位运算/遍历  |2022/03/28 | | | | 
 |2022/03/29| [2024. 考试的最大困扰度](https://leetcode-cn.com/problems/maximize-the-confusion-of-an-exam/)|Medium| 滑窗/前缀和+二分  |2022/03/29 | | | | 
+|2022/03/31| [728. 自除数](https://leetcode-cn.com/problems/self-dividing-numbers/)|Easy| 简单模拟  |2022/03/31 | | | | 
 
 ****
 
