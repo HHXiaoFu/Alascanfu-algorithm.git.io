@@ -19,6 +19,7 @@
         <module>CommonBitOperations</module>
         <module>DiscretizationTemplate</module>
         <module>SlidingWindowTemplate</module>
+        <module>TreeArray</module>
     </modules>
 
     <!--版本号控制-->
