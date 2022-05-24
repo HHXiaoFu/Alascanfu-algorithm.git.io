@@ -5,23 +5,22 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.alascanfu</groupId>
-    <artifactId>BasicAlgorithmTemplate</artifactId>
+    <artifactId>BasicDataStructure</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-.0</version>
+    <version>1.0.0</version>
     <modules>
-        <module>SortTemplate</module>
-        <module>DichotomyTemplate</module>
-        <module>BigIntegerTemplate</module>
-        <module>DifferenceAndPrefixSum</module>
-        <module>NonrecursiveTraversalOfBinaryTrees</module>
-        <module>DataAlgorithm</module>
-        <module>TwoPointerTemplate</module>
-        <module>CommonBitOperations</module>
-        <module>DiscretizationTemplate</module>
-        <module>SlidingWindowTemplate</module>
-        <module>TreeArray</module>
-        <module>TopologicalSortingTemplate</module>
-        <module>IntervalMerging</module>
+        <module>LinkedListTemplate</module>
+        <module>DoubleLinkedList</module>
+        <module>StackTemplate</module>
+        <module>QueueTemplate</module>
+        <module>MonotonousStack</module>
+        <module>MonotonousQueue</module>
+        <module>KMPTemplate</module>
+        <module>TrieTemplate</module>
+        <module>UnionTemplate</module>
+        <module>HeapTemplate</module>
+        <module>BinarySearchTreeEncodesAndDecodes</module>
+        <module>HashTableTemplate</module>
     </modules>
 
     <!--版本号控制-->
